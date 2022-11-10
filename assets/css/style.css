@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    z-index: 3;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(147, 152, 143);
+    justify-content: space-between;
+    position: fixed;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li a{
+    color: beige;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav li a:hover{
+    transition: 0.5s;
+    color: rgb(177, 175, 175);
+}
+.titulo h1 a{
+    color: beige;
+    font-size: 40px;
+    margin-left: 15px;
+    justify-content: flex-start;
+}
+body{
+    background-color: rgb(196, 197, 189);
+}
+.index{
+    display: flex;
+    background-image: url(../img/91250.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(161, 161, 155);
+}
+.index h1{
+    font-size: 90px;
+}
+.index h2{
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    justify-content: space-between;
+    background-color: rgb(196, 197, 189);
+}
+.card{
+    display: flex;
+    width: 300px;
+    height: 500px;
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 11px;
+    justify-content: space-around;
+    color: rgb(152, 152, 136);
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(220, 222, 214);
+}
+.card__titulo{
+    text-align: start;
+    font-size: 40px;
+}
+.card__titulo1{
+    font-size: 40px;
+}
+.card__subt{
+    font-size: 20px;
+}
+.card__img{
+    width: 230px;
+    height: 230px;
+    align-items: center;
+}
+.card__btn{
+    display: flex;
+    text-decoration: none;
+    font-family: lora,'Courier New', Courier, monospace;
+    color:  rgb(152, 152, 136);
+}
+footer{
+    width: 100%;
+    height: 90px;
+    color: beige;
+    background-color: rgb(147, 152, 143);
+    display: flex;
+    justify-content: space-evenly;
+    font-family: lora,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.foot__tienda{
+    text-align: center;
+}
+.foot__hora{
+    text-align: center;
+}
+.foot__redes img{
+    margin: 5px;
+}
+.encabezado{
+    display: flex;
+    background-image: url(../img/mixed-cacti-on-shelf.jpg);
+    background-size: cover;
+    background-position: 1px;
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+}
+.encabezado h1{
+    margin-top: 70px;
+    font-size: 60px;
+    padding: 10px;
+}
+.producto__padre{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgb(196, 197, 189);
+}
+.seccion{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(220, 222, 214);
+    border: 3px solid rgb(152, 152, 136);
+    border-radius: 3px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(152, 152, 136);
+}
+.seccion__titu{
+    padding: 20px;
+    font-size: 30px;
+}
+.seccion__img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.seccion__desc{
+    font-style:italic;
+}
+.seccion__btn{
+    font-family: lora;
+    background-color: antiquewhite;
+    border-color: bisque;
+    border-radius: 3px;
+    color: rgb(152, 152, 136);
+}
+#sucus{
+    background-image: url(../img/green-houseplant-background-for-plant-lovers.jpg);
+    color: rgb(152, 152, 136);
+}
+#sucus h1{
+    margin-top: 70px;
+    font-size: 60px;
+    padding: 10px;
+}
+#flores{
+    background-image: url(../img/replanting-flowers-in-the-garden.jpg);
+    color: rgb(156, 156, 149);
+}
+#flores h1{
+    font-size: 80px;
+    padding: 10px;
+}
+#orna{
+    background-image: url(../img/ornamentalesopacity.png);
+    color: rgb(140, 140, 137);
+}
+#orna h1{
+    font-size: 80px;
+    padding: 10px;
+}
+#paque{
+    background-image: url(../img/mockup-wall-with-plants-on-shelf.jpg);
+    color: rgb(140, 140, 137);
+}
+#paque h1{
+    font-size: 80px;
+}
+.headcontacto{
+    display: flex;
+    background-image: url(../img/white-wooden-texture-flooring-background.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(161, 161, 155);
+}
+.headcontacto h1{
+    font-size: 80px;
+}
+.formulario{
+    width: 800px;
+    height: auto;
+    background-color: rgb(152, 152, 136);
+    color: white;
+    font-family: lora;
+    font-size: 20px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:    "zona1 zona1"
+                            "zona2 zona3"
+                            "zona4 zona5"
+                            "zona6 zona6";
+}
+.formulario label:nth-child(1){
+    grid-area: zona1;
+}
+.formulario label:nth-child(2){
+    grid-area: zona2;
+}
+.formulario label:nth-child(3){
+    grid-area: zona3;
+}
+.formulario label:nth-child(4){
+    grid-area: zona4;
+}
+.formulario label select{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 3px solid rgb(161, 161, 155);
+    padding: 15px;
+    color: rgba(73, 73, 73, 0.426);
+    font-size: 15px;
+}
+.formulario label:nth-child(5){
+    grid-area: zona5;
+}
+.formulario button:nth-child(6){
+    grid-area: zona6;
+    background-color: rgb(161, 161, 155);
+    color: white;
+    font-size: 20px;
+    font-family: lora;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.formulario label{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.formulario input,.formulario textarea{
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid rgb(161, 161, 155);
+    margin-top: 10px;
+    color: rgb(73, 73, 73);
+    font-family: lora;
+    font-size: 15px;
+}
+#pedidos{
+    background-image: url(../img/envios.jpg);
+}
+#pedidos h1{
+    font-size: 80px;
+}
+.instrucciones{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: lora, Courier, monospace;
+}
+.instrucciones h1{
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.instrucciones ol{
+    padding: 10px;
+    justify-content: center;
+}
+.instrucciones ol li{
+    padding: 5px;
+    font-size: 30px;
+}
+.quienessomos{
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+#headerquien{
+    background: url(../img/high-angle-man-cleaning-plant-s-leaf\ \(2\).jpg);
+    background-size: cover;
+}
+.quienessomos h1{
+    font-size: 60px;
+    padding: 10px;
+}
+.quienessomos p{
+    font-size: 30px;
+    padding: 10px;
+}
