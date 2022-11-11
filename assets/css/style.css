@@ -39,9 +39,9 @@ body{
 }
 .index{
     display: flex;
-    background-image: url(../img/91352.jpg);
+    background-image: url(../img/headerIndex.jpg);
     width: 100%;
-    height: 1000px;
+    height: 933px;
     background-size: cover;
     flex-direction: column;
     align-items: center;
@@ -121,26 +121,47 @@ footer{
     margin: 5px;
 }
 .encabezado{
-    display: flex;
-    background-image: url(../img/mixed-cacti-on-shelf.jpg);
-    background-size: cover;
-    background-position: 1px;
     width: 100%;
-    height: 600px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    position: relative;
     font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: beige;
+    color: rgba(245, 245, 220, 0.746);
 }
-.encabezado h1{
+.encabezado img{
+    width: 100%;
+    height: 900px;
+}
+.encabezado h1, .encabezado h2{
     margin-top: 70px;
-    font-size: 60px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    font-size: 120px;
     padding: 10px;
 }
+#paque{
+    color: rgba(245, 245, 220, 0.568);
+}
+.encabezado h2{
+    font-size: 40px;
+    top: 55%;
+}
+.bg-1{
+    height: 50vh;
+    padding-top: 150px;
+ }
+ .t-stroke {
+   color: transparent;
+   -moz-text-stroke-width: 3px;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: rgb(44, 41, 41);
+ }
+ .t-shadow {
+   text-shadow: 5px 6px rgb(174, 174, 173);
+ }
 .producto__padre{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 40px;
     background-color: rgb(196, 197, 189);
@@ -178,38 +199,6 @@ footer{
     border-radius: 3px;
     color: rgb(152, 152, 136);
 }
-#sucus{
-    background-image: url(../img/green-houseplant-background-for-plant-lovers.jpg);
-    color: rgb(152, 152, 136);
-}
-#sucus h1{
-    margin-top: 70px;
-    font-size: 60px;
-    padding: 10px;
-}
-#flores{
-    background-image: url(../img/replanting-flowers-in-the-garden.jpg);
-    color: rgb(156, 156, 149);
-}
-#flores h1{
-    font-size: 80px;
-    padding: 10px;
-}
-#orna{
-    background-image: url(../img/ornamentalesopacity.png);
-    color: rgb(140, 140, 137);
-}
-#orna h1{
-    font-size: 80px;
-    padding: 10px;
-}
-#paque{
-    background-image: url(../img/mockup-wall-with-plants-on-shelf.jpg);
-    color: rgb(140, 140, 137);
-}
-#paque h1{
-    font-size: 80px;
-}
 .headcontacto{
     display: flex;
     background-image: url(../img/white-wooden-texture-flooring-background.jpg);
@@ -239,22 +228,22 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:    "zona1 zona1"
-                            "zona2 zona3"
-                            "zona4 zona5"
-                            "zona6 zona6";
+    grid-template-areas:    "lugar1 lugar1"
+                            "lugar2 lugar3"
+                            "lugar4 lugar5"
+                            "lugar6 lugar6";
 }
 .formulario label:nth-child(1){
-    grid-area: zona1;
+    grid-area: lugar1;
 }
 .formulario label:nth-child(2){
-    grid-area: zona2;
+    grid-area: lugar2;
 }
 .formulario label:nth-child(3){
-    grid-area: zona3;
+    grid-area: lugar3;
 }
 .formulario label:nth-child(4){
-    grid-area: zona4;
+    grid-area: lugar4;
 }
 .formulario label select{
     background-color: transparent;
@@ -265,10 +254,10 @@ footer{
     font-size: 15px;
 }
 .formulario label:nth-child(5){
-    grid-area: zona5;
+    grid-area: lugar5;
 }
 .formulario button:nth-child(6){
-    grid-area: zona6;
+    grid-area: lugar6;
     background-color: rgb(161, 161, 155);
     color: white;
     font-size: 20px;
