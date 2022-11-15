@@ -104,7 +104,6 @@ footer{
     height: 90px;
     color: beige;
     background-color: rgb(147, 152, 143);
-    display: flex;
     justify-content: space-evenly;
     font-family: lora,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
@@ -117,8 +116,11 @@ footer{
 .foot__hora{
     text-align: center;
 }
-.foot__redes img{
-    margin: 5px;
+.foot__redes{
+    font-size: 30px;
+}
+.fa-brands{
+    padding: 10px;
 }
 .encabezado{
     width: 100%;
