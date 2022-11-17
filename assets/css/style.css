@@ -35,7 +35,7 @@ nav li a:hover{
     justify-content: flex-start;
 }
 body{
-    background-color: rgb(196, 197, 189);
+    background: rgb(216, 216, 216);
 }
 .index{
     display: flex;
@@ -72,7 +72,7 @@ body{
     border-radius: 3px;
     padding: 20px;
     margin: 11px;
-    justify-content: space-around;
+    justify-content: space-between;
     color: rgb(152, 152, 136);
     align-items: center;
     flex-direction: column;
@@ -83,10 +83,10 @@ body{
     font-size: 40px;
 }
 .card__titulo1{
-    font-size: 40px;
+    font-size: 50px;
 }
 .card__subt{
-    font-size: 20px;
+    font-size: 25px;
 }
 .card__img{
     width: 230px;
@@ -96,6 +96,7 @@ body{
 .card__btn{
     display: flex;
     text-decoration: none;
+    font-size: 20px;
     font-family: lora,'Courier New', Courier, monospace;
     color:  rgb(152, 152, 136);
 }
@@ -168,7 +169,7 @@ footer{
 .seccion{
     display: flex;
     width: 300px;
-    height: 400px;
+    height: 415px;
     background-color: rgb(220, 222, 214);
     border: 3px solid rgb(152, 152, 136);
     border-radius: 3px;
