@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/*nav------------------------------------------------------------------------------------------------------*/
 nav{
     display: flex;
     width: 100%;
@@ -34,6 +35,13 @@ nav li a:hover{
     margin-left: 15px;
     justify-content: flex-start;
 }
+.fa-bars{
+    color: beige;
+    font-size: 25px;
+    visibility: hidden;
+}
+/*nav------------------------------------------------------------------------------------------------------*/
+/*index----------------------------------------------------------------------------------------------------*/
 body{
     background: rgb(216, 216, 216);
 }
@@ -100,6 +108,53 @@ body{
     font-family: lora,'Courier New', Courier, monospace;
     color:  rgb(152, 152, 136);
 }
+@media(max-width: 1583px){
+    .tarjetas{
+        padding: 30px;
+    }
+}
+@media(max-width: 1524px){
+    .tarjetas{
+        justify-content: space-evenly;
+    }
+}
+@media(max-width: 1157px){
+    .tarjetas{
+        justify-content: space-around;
+    }
+}
+@media(max-width: 900px){
+    nav ul{
+        position: fixed;
+        flex-direction: column;
+        background-color: rgb(147, 152, 143);
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        transition: 0.4s;
+        z-index: 200;
+    }
+    nav ul li{
+        padding: 20px;
+        text-align: center;
+    }
+    nav ul li a{
+        font-size: 25px;
+    }
+    .fa-bars{
+        visibility: visible;
+        padding: 15px;
+    }
+    .fa-bars:hover + ul{
+        right: 0;
+    }
+     ul:hover{
+        right: 0;
+    }
+}
+/*index----------------------------------------------------------------------------------------------------*/
+/*footer---------------------------------------------------------------------------------------------------*/
 footer{
     width: 100%;
     height: 90px;
@@ -123,6 +178,8 @@ footer{
 .fa-brands{
     padding: 10px;
 }
+/*footer---------------------------------------------------------------------------------------------------*/
+/* header pages--------------------------------------------------------------------------------------------*/
 .encabezado{
     width: 100%;
     position: relative;
@@ -159,6 +216,8 @@ footer{
  .t-shadow {
    text-shadow: 5px 6px rgb(255, 255, 255);
  }
+ /*header pages--------------------------------------------------------------------------------------------*/
+ /*tarjetas prod-------------------------------------------------------------------------------------------*/
 .producto__padre{
     display: flex;
     flex-wrap: wrap;
@@ -199,6 +258,8 @@ footer{
     border-radius: 3px;
     color: rgb(152, 152, 136);
 }
+ /*tarjetas prod-------------------------------------------------------------------------------------------*/
+ /*form----------------------------------------------------------------------------------------------------*/
 .formulario{
     width: 800px;
     height: auto;
@@ -266,42 +327,7 @@ footer{
     font-family: lora;
     font-size: 15px;
 }
-.instrucciones{
-    width: 100%;
-    height: 400px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    font-family: lora, Courier, monospace;
-}
-.instrucciones h1{
-    font-size: 40px;
-    padding: 20px;
-    margin-top: 30px;
-}
-.instrucciones ol{
-    padding: 10px;
-    justify-content: center;
-}
-.instrucciones ol li{
-    padding: 5px;
-    font-size: 30px;
-}
-.quienessomos{
-    height: 400px;
-    padding: 20px;
-    text-align: center;
-}
-#headerquien{
-    background: url(../img/high-angle-man-cleaning-plant-s-leaf\ \(2\).jpg);
-    background-size: cover;
-}
-.quienessomos h1{
-    font-size: 60px;
-    padding: 10px;
-}
-.quienessomos p{
-    font-size: 30px;
-    padding: 10px;
-}
+/*form-----------------------------------------------------------------------------------------------------*/
+
+
 
