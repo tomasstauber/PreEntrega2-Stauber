@@ -9,7 +9,6 @@ nav{
     height: 80px;
     z-index: 3;
     flex-direction: row;
-    align-items: center;
     background-color: rgb(147, 152, 143);
     justify-content: space-between;
     position: fixed;
@@ -33,7 +32,6 @@ nav li a:hover{
     color: beige;
     font-size: 40px;
     margin-left: 15px;
-    justify-content: flex-start;
 }
 .fa-bars{
     color: beige;
@@ -108,51 +106,6 @@ body{
     font-family: lora,'Courier New', Courier, monospace;
     color:  rgb(152, 152, 136);
 }
-@media(max-width: 1583px){
-    .tarjetas{
-        padding: 30px;
-    }
-}
-@media(max-width: 1524px){
-    .tarjetas{
-        justify-content: space-evenly;
-    }
-}
-@media(max-width: 1157px){
-    .tarjetas{
-        justify-content: space-around;
-    }
-}
-@media(max-width: 900px){
-    nav ul{
-        position: fixed;
-        flex-direction: column;
-        background-color: rgb(147, 152, 143);
-        top: 0;
-        right: -300px;
-        width: 300px;
-        height: 100vh;
-        transition: 0.4s;
-        z-index: 200;
-    }
-    nav ul li{
-        padding: 20px;
-        text-align: center;
-    }
-    nav ul li a{
-        font-size: 25px;
-    }
-    .fa-bars{
-        visibility: visible;
-        padding: 15px;
-    }
-    .fa-bars:hover + ul{
-        right: 0;
-    }
-     ul:hover{
-        right: 0;
-    }
-}
 /*index----------------------------------------------------------------------------------------------------*/
 /*footer---------------------------------------------------------------------------------------------------*/
 footer{
@@ -203,6 +156,9 @@ footer{
     font-size: 40px;
     top: 55%;
 }
+#modicac{
+    margin-top: 80px;
+}
 .bg-1{
     height: 50vh;
     padding-top: 150px;
@@ -221,7 +177,7 @@ footer{
 .producto__padre{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 40px;
     background-color: rgb(196, 197, 189);
 }
@@ -328,6 +284,67 @@ footer{
     font-size: 15px;
 }
 /*form-----------------------------------------------------------------------------------------------------*/
-
+/*@medias--------------------------------------------------------------------------------------------------*/
+@media(max-width: 1583px){
+    .tarjetas{
+        padding: 30px;
+    }
+}
+@media(max-width: 1524px){
+    .tarjetas{
+        justify-content: space-evenly;
+    }
+}
+@media(max-width: 1157px){
+    .tarjetas{
+        justify-content: space-around;
+    }
+}
+@media(max-width: 900px){
+    nav ul{
+        position: fixed;
+        flex-direction: column;
+        background-color: rgb(147, 152, 143);
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        transition: 0.4s;
+        z-index: 200;
+    }
+    nav ul li{
+        padding: 20px;
+        text-align: center;
+    }
+    nav ul li a{
+        font-size: 25px;
+    }
+    .fa-bars{
+        visibility: visible;
+        padding: 15px;
+    }
+    .fa-bars:hover + ul{
+        right: 0;
+    }
+     ul:hover{
+        right: 0;
+    }
+    .encabezado h2{
+        font-size: 30px;
+    }
+    .encabezado img{
+        height: 600px;
+    }
+    .encabezado h1{
+        top: 35%;
+    }
+    .encabezado h2{
+        top: 50%;
+    }
+    .card{
+        justify-content: space-around;
+    }
+}
+/*@medias--------------------------------------------------------------------------------------------------*/
 
 
