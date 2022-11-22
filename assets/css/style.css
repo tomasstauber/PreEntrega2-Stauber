@@ -38,7 +38,6 @@ nav li a:hover{
     font-size: 25px;
     visibility: hidden;
 }
-/*nav------------------------------------------------------------------------------------------------------*/
 /*index----------------------------------------------------------------------------------------------------*/
 body{
     background: rgb(216, 216, 216);
@@ -106,7 +105,6 @@ body{
     font-family: lora,'Courier New', Courier, monospace;
     color:  rgb(152, 152, 136);
 }
-/*index----------------------------------------------------------------------------------------------------*/
 /*footer---------------------------------------------------------------------------------------------------*/
 footer{
     width: 100%;
@@ -131,7 +129,6 @@ footer{
 .fa-brands{
     padding: 10px;
 }
-/*footer---------------------------------------------------------------------------------------------------*/
 /* header pages--------------------------------------------------------------------------------------------*/
 .encabezado{
     width: 100%;
@@ -172,7 +169,6 @@ footer{
  .t-shadow {
    text-shadow: 5px 6px rgb(255, 255, 255);
  }
- /*header pages--------------------------------------------------------------------------------------------*/
  /*tarjetas prod-------------------------------------------------------------------------------------------*/
 .producto__padre{
     display: flex;
@@ -190,7 +186,7 @@ footer{
     border-radius: 3px;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
     font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(152, 152, 136);
@@ -204,17 +200,17 @@ footer{
     height: 200px;
     padding: 10px;
 }
-.seccion__desc{
-    font-style:italic;
-}
 .seccion__btn{
+    height: 30px;
+    align-self: flex-end;
+    width: 100%;
+    border: none;
     font-family: lora;
     background-color: antiquewhite;
     border-color: bisque;
     border-radius: 3px;
     color: rgb(152, 152, 136);
 }
- /*tarjetas prod-------------------------------------------------------------------------------------------*/
  /*form----------------------------------------------------------------------------------------------------*/
 .formulario{
     width: 800px;
@@ -283,7 +279,6 @@ footer{
     font-family: lora;
     font-size: 15px;
 }
-/*form-----------------------------------------------------------------------------------------------------*/
 /*@medias--------------------------------------------------------------------------------------------------*/
 @media(max-width: 1583px){
     .tarjetas{
@@ -329,20 +324,69 @@ footer{
      ul:hover{
         right: 0;
     }
-    .encabezado h2{
-        font-size: 30px;
-    }
-    .encabezado img{
-        height: 600px;
-    }
     .encabezado h1{
         top: 35%;
     }
     .encabezado h2{
+        font-size: 30px;
         top: 50%;
+    }
+    .encabezado img{
+        height: 600px;
     }
     .card{
         justify-content: space-around;
+    }
+    .formulario{
+        width: 600px;
+        font-size: 15px;
+    }
+    .formulario button:nth-child(6){
+        font-size: 15px;
+    }
+}
+@media(max-width: 700px){
+    footer{
+        font-size: 10px;
+    }
+    .foot__redes{
+        font-size: 20px;
+    }
+    .encabezado h1{
+        top: 25%;
+        font-size: 70px;
+    }
+    .encabezado h2{
+        font-size: 20px;
+        top: 40%;
+    }
+    .encabezado img{
+        width: 100%;
+        height: 400px;
+    }
+    .formulario{
+        width: 400px;
+        font-size: 15px;
+    }
+}
+@media(max-width: 500px){
+    .encabezado h1{
+        top: 25%;
+        font-size: 70px;
+    }
+    .encabezado h2{
+        font-size: 19px;
+        top: 40%;
+    }
+    .encabezado img{
+        width: 100%;
+        height: 400px;
+    }
+    #cactitu{
+        top: 35%;
+    }
+    #cacsubti{
+        top: 45%;
     }
 }
 /*@medias--------------------------------------------------------------------------------------------------*/
