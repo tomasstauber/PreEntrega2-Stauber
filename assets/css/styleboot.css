@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.colornav{
+   background-color:rgb(147, 152, 143);
+   height: 80px;
+}
+nav{
+    z-index: 1100;
+}
+nav ul{
+    background-color: rgb(147, 152, 143);
+}
+.colorfoot{
+    background-color: rgb(147, 152, 143);
+}
+.carousel h5{
+    font-size: 50px;
+}
+.carousel p{
+    font-size: 30px;
+}
+.cambiomain h5{
+    font-size: 50px;
+}
+.cambiomain p{
+    font-size: 30px;
+}
