@@ -1,0 +1,42 @@
+.producto__padre{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: rgb(196, 197, 189);
+}
+.seccion{
+    display: flex;
+    width: 300px;
+    height: 415px;
+    background-color: rgb(220, 222, 214);
+    border: 3px solid rgb(152, 152, 136);
+    border-radius: 3px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(152, 152, 136);
+    h3{
+        padding: 20px;
+        font-size: 30px;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+    button{
+        height: 30px;
+        align-self: flex-end;
+        width: 100%;
+        border: none;
+        font-family: lora;
+        background-color: antiquewhite;
+        border-color: bisque;
+        border-radius: 3px;
+        color: rgb(152, 152, 136);
+    }
+}

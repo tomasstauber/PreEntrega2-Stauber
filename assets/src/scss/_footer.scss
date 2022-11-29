@@ -1,0 +1,29 @@
+footer{
+    width: 100%;
+    height: 90px;
+    color: beige;
+    background-color: rgb(147, 152, 143);
+    justify-content: space-evenly;
+    font-family: lora,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    @media(max-width: 700px){
+        font-size: 10px;
+    }
+}
+.foot__tienda{
+    text-align: center;
+}
+.foot__hora{
+    text-align: center;
+}
+.foot__redes{
+    font-size: 30px;
+    @media(max-width: 700px){
+        font-size: 20px;
+    }
+}
+.fa-brands{
+    padding: 10px;
+}

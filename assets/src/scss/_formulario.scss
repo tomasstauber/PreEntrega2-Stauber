@@ -1,0 +1,79 @@
+.formulario{
+    width: 800px;
+    height: auto;
+    background-color: rgb(152, 152, 136);
+    color: white;
+    font-family: lora;
+    font-size: 20px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:    "lugar1 lugar1"
+                            "lugar2 lugar3"
+                            "lugar4 lugar5"
+                            "lugar6 lugar6";
+    label:nth-child(1){
+        grid-area: lugar1;
+    }
+    label:nth-child(2){
+        grid-area: lugar2;
+    }
+    label:nth-child(3){
+        grid-area: lugar3;
+    }
+    label:nth-child(4){
+        grid-area: lugar4;                           
+    }
+    label:nth-child(5){
+        grid-area: lugar5;
+    }
+    button:nth-child(6){
+        grid-area: lugar6;
+        background-color: rgb(161, 161, 155);
+        color: white;
+        font-size: 20px;
+        font-family: lora;
+        border: none;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    label select{
+        background-color: transparent;
+        border: 0;
+        border-bottom: 3px solid rgb(161, 161, 155);
+        padding: 15px;
+        color: rgba(73, 73, 73, 0.426);
+        font-size: 15px;
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    input, textarea{
+        background-color: transparent;
+        outline: none;
+        border: 0;
+        border-bottom: 1px solid rgb(161, 161, 155);
+        margin-top: 10px;
+        color: rgb(73, 73, 73);
+        font-family: lora;
+        font-size: 15px;
+    }
+    @media(max-width: 900px){
+        width: 600px;
+        font-size: 15px;
+        button:nth-child(6){
+            font-size: 15px;
+        }
+    }
+    @media(max-width: 700px){
+        width: 400px;
+        font-size: 15px;
+    }
+}
+    
