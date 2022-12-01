@@ -75,5 +75,16 @@
         width: 400px;
         font-size: 15px;
     }
+    @media(max-width: 480px){
+        width: 300px;
+        padding: 10px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:    "lugar1 lugar1"
+                                "lugar2 lugar2"
+                                "lugar3 lugar3"
+                                "lugar4 lugar4"
+                                "lugar5 lugar5"
+                                "lugar6 lugar6";
+    }
 }
     

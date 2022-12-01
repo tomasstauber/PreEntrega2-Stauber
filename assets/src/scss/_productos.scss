@@ -8,7 +8,7 @@
 }
 .seccion{
     display: flex;
-    width: 300px;
+    width: 290px;
     height: 415px;
     background-color: rgb(220, 222, 214);
     border: 3px solid rgb(152, 152, 136);
@@ -38,5 +38,11 @@
         border-color: bisque;
         border-radius: 3px;
         color: rgb(152, 152, 136);
+    }
+    @media(max-width: 500px){
+        height: 370px;
+        h3{
+            font-size: 20px;
+        }
     }
 }

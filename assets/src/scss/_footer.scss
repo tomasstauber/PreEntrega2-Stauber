@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    height: 90px;
+    height: 95px;
     color: beige;
     background-color: rgb(147, 152, 143);
     justify-content: space-evenly;
@@ -10,6 +10,9 @@ footer{
     align-items: center;
     @media(max-width: 700px){
         font-size: 10px;
+    }
+    @media(max-width: 380px){
+        font-size: 8px;
     }
 }
 .foot__tienda{
@@ -26,4 +29,8 @@ footer{
 }
 .fa-brands{
     padding: 10px;
+    @media(max-width: 380px){
+        font-size: 15px;
+        padding: 5px;
+    }
 }

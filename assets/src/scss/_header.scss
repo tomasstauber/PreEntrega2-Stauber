@@ -5,13 +5,13 @@
     color: rgba(245, 245, 220, 0.746);
     img{
         width: 100%;
-        height: 900px; 
+        height: 600px; 
     }
     h1{
         margin-top: 70px;
         position: absolute;
         transform: translate(-50%, -50%);
-        top: 45%;
+        top: 35%;
         left: 50%;
         font-size: 120px;
         padding: 10px;
@@ -23,11 +23,12 @@
         left: 50%;
         padding: 10px;
         font-size: 40px;
-        top: 55%;
+        top: 50%;
     }
     @media(max-width: 900px){
         h1{
             top: 35%;
+            font-size: 100px;
         }
         h2{
             font-size: 30px;
@@ -50,19 +51,46 @@
             width: 100%;
             height: 400px;
         }
+        #cactitu{
+            top: 35%;
+        }
+        #cacsubti{
+            top: 50%;
+        } 
     }
     @media(max-width: 500px){
         h1{
             top: 25%;
-            font-size: 70px;
+            font-size: 50px;
         }
         h2{
-            font-size: 19px;
+            font-size: 14px;
             top: 40%;
         }
         img{
             width: 100%;
             height: 400px;
+        }
+        #cactitu{
+            top: 40%;
+        }
+        #cacsubti{
+            top: 50%;
+        } 
+    }
+    @media(max-width: 380px){
+        h1{
+            top: 25%;
+            font-size: 45px;
+        }
+        h2{
+            text-align: center;
+            font-size: 15px;
+            top: 40%;
+        }
+        img{
+            width: 100%;
+            height: 300px;
         }
         #cactitu{
             top: 35%;
@@ -75,10 +103,6 @@
 #modicac{
     margin-top: 80px;
 }
-.bg-1{
-    height: 50vh;
-    padding-top: 150px;
- }
  .t-stroke {
    color: transparent;
    -moz-text-stroke-width: 3px;
@@ -87,4 +111,7 @@
  }
  .t-shadow {
    text-shadow: 5px 6px rgb(255, 255, 255);
+   @media(max-width:500px){
+    text-shadow: 4px 3px rgb(255, 255, 255);
+   }
  }

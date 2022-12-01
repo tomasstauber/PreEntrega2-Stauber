@@ -67,12 +67,12 @@ nav {
   color: rgba(245, 245, 220, 0.746); }
   .encabezado img {
     width: 100%;
-    height: 900px; }
+    height: 600px; }
   .encabezado h1 {
     margin-top: 70px;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 45%;
+    top: 35%;
     left: 50%;
     font-size: 120px;
     padding: 10px; }
@@ -83,10 +83,11 @@ nav {
     left: 50%;
     padding: 10px;
     font-size: 40px;
-    top: 55%; }
+    top: 50%; }
   @media (max-width: 900px) {
     .encabezado h1 {
-      top: 35%; }
+      top: 35%;
+      font-size: 100px; }
     .encabezado h2 {
       font-size: 30px;
       top: 50%; }
@@ -101,17 +102,36 @@ nav {
       top: 40%; }
     .encabezado img {
       width: 100%;
-      height: 400px; } }
+      height: 400px; }
+    .encabezado #cactitu {
+      top: 35%; }
+    .encabezado #cacsubti {
+      top: 50%; } }
   @media (max-width: 500px) {
     .encabezado h1 {
       top: 25%;
-      font-size: 70px; }
+      font-size: 50px; }
     .encabezado h2 {
-      font-size: 19px;
+      font-size: 14px;
       top: 40%; }
     .encabezado img {
       width: 100%;
       height: 400px; }
+    .encabezado #cactitu {
+      top: 40%; }
+    .encabezado #cacsubti {
+      top: 50%; } }
+  @media (max-width: 380px) {
+    .encabezado h1 {
+      top: 25%;
+      font-size: 45px; }
+    .encabezado h2 {
+      text-align: center;
+      font-size: 15px;
+      top: 40%; }
+    .encabezado img {
+      width: 100%;
+      height: 300px; }
     .encabezado #cactitu {
       top: 35%; }
     .encabezado #cacsubti {
@@ -119,10 +139,6 @@ nav {
 
 #modicac {
   margin-top: 80px; }
-
-.bg-1 {
-  height: 50vh;
-  padding-top: 150px; }
 
 .t-stroke {
   color: transparent;
@@ -132,6 +148,9 @@ nav {
 
 .t-shadow {
   text-shadow: 5px 6px white; }
+  @media (max-width: 500px) {
+    .t-shadow {
+      text-shadow: 4px 3px white; } }
 
 body {
   background: #d8d8d8; }
@@ -183,10 +202,16 @@ body {
   @media (max-width: 900px) {
     .card {
       justify-content: space-around; } }
+  @media (max-width: 500px) {
+    .card {
+      height: 400px; } }
+  @media (max-width: 380px) {
+    .card p {
+      text-align: center; } }
 
 footer {
   width: 100%;
-  height: 90px;
+  height: 95px;
   color: beige;
   background-color: #93988f;
   justify-content: space-evenly;
@@ -197,6 +222,9 @@ footer {
   @media (max-width: 700px) {
     footer {
       font-size: 10px; } }
+  @media (max-width: 380px) {
+    footer {
+      font-size: 8px; } }
 
 .foot__tienda {
   text-align: center; }
@@ -212,6 +240,10 @@ footer {
 
 .fa-brands {
   padding: 10px; }
+  @media (max-width: 380px) {
+    .fa-brands {
+      font-size: 15px;
+      padding: 5px; } }
 
 .producto__padre {
   display: flex;
@@ -223,7 +255,7 @@ footer {
 
 .seccion {
   display: flex;
-  width: 300px;
+  width: 290px;
   height: 415px;
   background-color: #dcded6;
   border: 3px solid #989888;
@@ -251,6 +283,11 @@ footer {
     border-color: bisque;
     border-radius: 3px;
     color: #989888; }
+  @media (max-width: 500px) {
+    .seccion {
+      height: 370px; }
+      .seccion h3 {
+        font-size: 20px; } }
 
 .formulario {
   width: 800px;
@@ -316,3 +353,25 @@ footer {
     .formulario {
       width: 400px;
       font-size: 15px; } }
+  @media (max-width: 480px) {
+    .formulario {
+      width: 300px;
+      padding: 10px;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas: "lugar1 lugar1" "lugar2 lugar2" "lugar3 lugar3" "lugar4 lugar4" "lugar5 lugar5" "lugar6 lugar6"; } }
+
+.accordion {
+  background-color: aqua; }
+
+.quienes {
+  font-family: lora, 'Courier New', Courier, monospace;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  color: #383835; }
+
+#quienes1 {
+  top: 50%; }
+
+#quienes2 {
+  top: 60%; }
