@@ -4,6 +4,7 @@ body{
 .tarjetas{
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
     padding: 60px;
     justify-content: space-between;
     background-color: rgb(196, 197, 189);
