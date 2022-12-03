@@ -50,7 +50,7 @@ nav {
       nav .fa-bars:hover + ul {
         right: 0; } }
 
-.titulo h1 a {
+.titulo h2 a {
   color: beige;
   font-size: 40px;
   margin-left: 15px; }
@@ -205,7 +205,10 @@ body {
       justify-content: space-around; } }
   @media (max-width: 500px) {
     .card {
-      height: 400px; } }
+      height: 400px; }
+      .card p {
+        text-align: center;
+        /*prueba*/ } }
   @media (max-width: 380px) {
     .card p {
       text-align: center; } }

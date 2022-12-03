@@ -55,6 +55,9 @@ body{
     }
     @media(max-width: 500px){
         height: 400px;
+        p{
+            text-align: center; /*prueba*/
+        }
     }
     @media(max-width: 380px){
         p{
