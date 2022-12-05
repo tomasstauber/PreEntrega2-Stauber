@@ -1,26 +1,22 @@
+@import "variables";
+@import "mixins";
 .encabezado{
     width: 100%;
     position: relative;
-    font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgba(245, 245, 220, 0.746);
+    font-family: $fuente;
+    color: $color-header;
     img{
         width: 100%;
         height: 600px; 
     }
     h1{
-        margin-top: 70px;
-        position: absolute;
-        transform: translate(-50%, -50%);
+        @include header;
         top: 35%;
-        left: 50%;
         font-size: 120px;
         padding: 10px;
     }
     h2{
-        margin-top: 70px;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        left: 50%;
+        @include header;
         padding: 10px;
         font-size: 40px;
         top: 50%;

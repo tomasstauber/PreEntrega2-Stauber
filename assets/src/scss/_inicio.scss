@@ -1,5 +1,6 @@
+@import "variables";
 body{
-    background: rgb(216, 216, 216);
+    background: $color-bg;
 }
 .tarjetas{
     display: flex;
@@ -7,7 +8,7 @@ body{
     overflow: hidden;
     padding: 60px;
     justify-content: space-between;
-    background-color: rgb(196, 197, 189);
+    background-color: $color-bg;
     @media(max-width: 1583px){
         padding: 30px;
     }
@@ -27,10 +28,10 @@ body{
     padding: 20px;
     margin: 11px;
     justify-content: space-between;
-    color: rgb(152, 152, 136);
+    color: $color-primario;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(220, 222, 214);
+    background-color: $color-cards;
     h3{
         text-align: start;
         font-size: 40px;
@@ -47,8 +48,8 @@ body{
         display: flex;
         text-decoration: none;
         font-size: 20px;
-        font-family: lora,'Courier New', Courier, monospace;
-        color:  rgb(152, 152, 136);
+        font-family: $fuente;
+        color:  $color-primario;
     }
     @media(max-width: 900px){
         justify-content: space-around;

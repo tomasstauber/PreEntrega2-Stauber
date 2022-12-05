@@ -1,10 +1,11 @@
+@import "variables";
 footer{
     width: 100%;
     height: 95px;
-    color: beige;
-    background-color: rgb(147, 152, 143);
+    color: $color-texto;
+    background-color: $color-primario;
     justify-content: space-evenly;
-    font-family: lora,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: $fuente;
     display: flex;
     flex-direction: row;
     align-items: center;

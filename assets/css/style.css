@@ -17,11 +17,11 @@ nav {
     list-style: none; }
     nav ul li a {
       display: block;
-      color: beige;
+      color: #F5F5DC;
       padding: 10px 20px;
       text-decoration: none;
       font-size: 20px;
-      font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+      font-family: lora, "Courier New", Courier, monospace; }
       nav ul li a:hover {
         transition: 0.5s;
         color: #b1afaf; }
@@ -51,19 +51,19 @@ nav {
         right: 0; } }
 
 .titulo h2 a {
-  color: beige;
+  color: #F5F5DC;
   font-size: 40px;
   margin-left: 15px; }
 
 .fa-bars {
-  color: beige;
+  color: #F5F5DC;
   font-size: 25px;
   display: none; }
 
 .encabezado {
   width: 100%;
   position: relative;
-  font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: lora, "Courier New", Courier, monospace;
   color: rgba(245, 245, 220, 0.746); }
   .encabezado img {
     width: 100%;
@@ -72,8 +72,8 @@ nav {
     margin-top: 70px;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 35%;
     left: 50%;
+    top: 35%;
     font-size: 120px;
     padding: 10px; }
   .encabezado h2 {
@@ -153,7 +153,7 @@ nav {
       text-shadow: 4px 3px white; } }
 
 body {
-  background: #d8d8d8; }
+  background: #D8D8D8; }
 
 .tarjetas {
   display: flex;
@@ -161,7 +161,7 @@ body {
   overflow: hidden;
   padding: 60px;
   justify-content: space-between;
-  background-color: #c4c5bd; }
+  background-color: #D8D8D8; }
   @media (max-width: 1583px) {
     .tarjetas {
       padding: 30px; } }
@@ -181,10 +181,10 @@ body {
   padding: 20px;
   margin: 11px;
   justify-content: space-between;
-  color: #989888;
+  color: #93988f;
   align-items: center;
   flex-direction: column;
-  background-color: #dcded6; }
+  background-color: #C4C5BD; }
   .card h3 {
     text-align: start;
     font-size: 40px; }
@@ -198,8 +198,8 @@ body {
     display: flex;
     text-decoration: none;
     font-size: 20px;
-    font-family: lora,'Courier New', Courier, monospace;
-    color: #989888; }
+    font-family: lora, "Courier New", Courier, monospace;
+    color: #93988f; }
   @media (max-width: 900px) {
     .card {
       justify-content: space-around; } }
@@ -216,10 +216,10 @@ body {
 footer {
   width: 100%;
   height: 95px;
-  color: beige;
+  color: #F5F5DC;
   background-color: #93988f;
   justify-content: space-evenly;
-  font-family: lora,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: lora, "Courier New", Courier, monospace;
   display: flex;
   flex-direction: row;
   align-items: center; }
@@ -255,21 +255,21 @@ footer {
   gap: 20px;
   justify-content: space-around;
   padding: 40px;
-  background-color: #c4c5bd; }
+  background-color: #C4C5BD; }
 
 .seccion {
   display: flex;
   width: 290px;
   height: 415px;
-  background-color: #dcded6;
-  border: 3px solid #989888;
+  background-color: #D8D8D8;
+  border: 3px solid #93988f;
   border-radius: 3px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #989888; }
+  font-family: lora, "Courier New", Courier, monospace;
+  color: #93988f; }
   .seccion h3 {
     padding: 20px;
     font-size: 30px; }
@@ -283,10 +283,9 @@ footer {
     width: 100%;
     border: none;
     font-family: lora;
-    background-color: antiquewhite;
-    border-color: bisque;
+    background-color: rgba(245, 245, 220, 0.746);
     border-radius: 3px;
-    color: #989888; }
+    color: #93988f; }
   @media (max-width: 500px) {
     .seccion {
       height: 370px; }
@@ -296,9 +295,9 @@ footer {
 .formulario {
   width: 800px;
   height: auto;
-  background-color: #989888;
-  color: white;
-  font-family: lora;
+  background-color: #93988f;
+  color: #F5F5DC;
+  font-family: lora, "Courier New", Courier, monospace;
   font-size: 20px;
   padding: 30px;
   margin: auto;
@@ -320,17 +319,17 @@ footer {
     grid-area: lugar5; }
   .formulario button:nth-child(6) {
     grid-area: lugar6;
-    background-color: #a1a19b;
-    color: white;
+    background-color: rgba(73, 73, 73, 0.426);
+    color: #F5F5DC;
     font-size: 20px;
-    font-family: lora;
+    font-family: lora, "Courier New", Courier, monospace;
     border: none;
     border-radius: 5px;
     margin: 10px; }
   .formulario label select {
     background-color: transparent;
     border: 0;
-    border-bottom: 3px solid #a1a19b;
+    border-bottom: 2px solid rgba(73, 73, 73, 0.426);
     padding: 15px;
     color: rgba(73, 73, 73, 0.426);
     font-size: 15px; }
@@ -342,10 +341,10 @@ footer {
     background-color: transparent;
     outline: none;
     border: 0;
-    border-bottom: 1px solid #a1a19b;
+    border-bottom: 2px solid rgba(73, 73, 73, 0.426);
     margin-top: 10px;
-    color: #494949;
-    font-family: lora;
+    color: rgba(73, 73, 73, 0.426);
+    font-family: lora, "Courier New", Courier, monospace;
     font-size: 15px; }
   @media (max-width: 900px) {
     .formulario {
@@ -365,10 +364,10 @@ footer {
       grid-template-areas: "lugar1 lugar1" "lugar2 lugar2" "lugar3 lugar3" "lugar4 lugar4" "lugar5 lugar5" "lugar6 lugar6"; } }
 
 .accordion {
-  font-family: lora, 'Courier New', Courier, monospace; }
+  font-family: lora, "Courier New", Courier, monospace; }
 
 .quienes {
-  font-family: lora, 'Courier New', Courier, monospace;
+  font-family: lora, "Courier New", Courier, monospace;
   font-size: 25px;
   text-align: center;
   padding: 20px;

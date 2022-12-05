@@ -1,9 +1,10 @@
+@import "variables";
 .quienes{
-    font-family: lora, 'Courier New', Courier, monospace;
+    font-family: $fuente;
     font-size: 25px;
     text-align: center;
     padding: 20px;
-    color: rgb(56, 56, 53);
+    color: $color-texto1;
 }
 #quienes1{
     top: 50%;

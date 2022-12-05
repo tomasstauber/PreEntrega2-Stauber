@@ -1,24 +1,25 @@
+@import "variables";
 .producto__padre{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-around;
     padding: 40px;
-    background-color: rgb(196, 197, 189);
+    background-color: $color-cards;
 }
 .seccion{
     display: flex;
     width: 290px;
     height: 415px;
-    background-color: rgb(220, 222, 214);
-    border: 3px solid rgb(152, 152, 136);
+    background-color: $color-bg;
+    border: 3px solid $color-primario;
     border-radius: 3px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    font-family: lora, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(152, 152, 136);
+    font-family: $fuente;
+    color: $color-primario;
     h3{
         padding: 20px;
         font-size: 30px;
@@ -34,10 +35,9 @@
         width: 100%;
         border: none;
         font-family: lora;
-        background-color: antiquewhite;
-        border-color: bisque;
+        background-color: $color-header;
         border-radius: 3px;
-        color: rgb(152, 152, 136);
+        color: $color-primario;
     }
     @media(max-width: 500px){
         height: 370px;
