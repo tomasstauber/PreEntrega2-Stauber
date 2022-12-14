@@ -116,24 +116,24 @@ nav {
       top: 40%; }
     .encabezado img {
       width: 100%;
-      height: 400px; }
+      height: 300px; }
     .encabezado #cactitu {
       top: 40%; }
     .encabezado #cacsubti {
       top: 50%; } }
   @media (max-width: 380px) {
     .encabezado h1 {
-      top: 25%;
+      top: 10%;
       font-size: 45px; }
     .encabezado h2 {
       text-align: center;
       font-size: 15px;
-      top: 40%; }
+      top: 30%; }
     .encabezado img {
       width: 100%;
-      height: 300px; }
+      height: 200px; }
     .encabezado #cactitu {
-      top: 35%; }
+      top: 30%; }
     .encabezado #cacsubti {
       top: 45%; } }
 
@@ -521,3 +521,26 @@ footer {
     border-bottom: 0; }
   .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
     border-radius: 0; }
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(197, 197, 183, 0.356);
+  position: fixed;
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .loading i {
+    font-size: 75px;
+    object-fit: cover;
+    animation-name: rotar;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    color: #93988f; }
+
+@keyframes rotar {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
