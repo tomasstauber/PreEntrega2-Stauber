@@ -228,7 +228,9 @@ footer {
       font-size: 10px; } }
   @media (max-width: 380px) {
     footer {
-      font-size: 8px; } }
+      font-size: 15px;
+      flex-direction: column;
+      height: 250px; } }
 
 .foot__tienda {
   text-align: center; }
@@ -243,11 +245,8 @@ footer {
       font-size: 20px; } }
 
 .fa-brands {
-  padding: 10px; }
-  @media (max-width: 380px) {
-    .fa-brands {
-      font-size: 15px;
-      padding: 5px; } }
+  padding: 10px;
+  font-size: 20px; }
 
 .producto__padre {
   display: flex;
@@ -355,7 +354,7 @@ footer {
   @media (max-width: 700px) {
     .formulario {
       width: 400px;
-      font-size: 15px; } }
+      font-size: 20px; } }
   @media (max-width: 480px) {
     .formulario {
       width: 300px;

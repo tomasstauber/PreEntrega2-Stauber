@@ -13,11 +13,14 @@ footer{
         font-size: 10px;
     }
     @media(max-width: 380px){
-        font-size: 8px;
+        font-size: 15px;
+        flex-direction: column;
+        height: 250px;
     }
 }
 .foot__tienda{
     text-align: center;
+
 }
 .foot__hora{
     text-align: center;
@@ -30,8 +33,5 @@ footer{
 }
 .fa-brands{
     padding: 10px;
-    @media(max-width: 380px){
-        font-size: 15px;
-        padding: 5px;
-    }
+    font-size: 20px;
 }
